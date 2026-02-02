@@ -1,0 +1,110 @@
+/*Text style*/
+@font-face {
+  font-family: NiseSegaSonic;
+  src: url(NiseSegaSonic.TTF);
+}
+@font-face {
+  font-family: Righteous-j7av;
+  src: url(Righteous-j7av.TTF);
+}
+
+#Head {
+	font-family: NiseSegaSonic;
+}
+
+* {
+	font-family: Righteous-j7av;
+}
+
+/*Text position*/
+h1 {
+  
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/*Background image*/
+#body {
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/f0/cc/2a/f0cc2af545d9dc898c22287f70dc0b0e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+/* Style the Main Body Content */
+.content {
+  max-width: 1200px;
+  margin: auto;
+  background: #1c5dc7;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(13, 42, 209);
+  margin: 0px;
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(0, 97, 255);
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(10, 22, 191);
+}
+
+.active {
+  background-color: rgb(0, 140, 255);
+}
+
+/*for images*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
